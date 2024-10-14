@@ -27,7 +27,7 @@ namespace CRUD_WEB.Controllers
                 ViewBag.issuccess = "Data Added Successfully!";
 
             }else {
-                ViewBag.issuccess = "There was an error adding the data. Please check!";
+                ViewBag.issuccess = "There was an error adding the data. Please check!!";
             }
 
             return View();
